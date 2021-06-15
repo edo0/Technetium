@@ -14,6 +14,10 @@ user_pref("browser.compactmode.show", true);
 // about:home Search Bar
 // user_pref("browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar", false);
 
+// Enable closetab to always be displayed
+user_pref("browser.tabs.tabMinWidth", 0);
+user_pref("browser.tabs.tabClipWidth", 0);
+
 // ** Useful Options ***********************************************************
 // Integrated calculator at urlbar
 user_pref("browser.urlbar.suggest.calculator", true);
