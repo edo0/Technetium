@@ -14,7 +14,7 @@ It gets its name from Technetium-99m, agent used for [Single Photon Emission Com
 ### How to apply Technetium to your Firefox?
 -  Enter `about:support` in your URL bar
 -  Find the `Profile Directory` entry and click the `Open Directory` button
--  Copy in that folder the `user.js` file and the `chrome folder` from the Technetium release package
+-  Copy in that folder the `user.js` file and the `chrome` folder from the Technetium release package
 -  In `about:support`, click `Clear startup cache...`
 
 ## Screenshots
