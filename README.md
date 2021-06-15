@@ -8,6 +8,7 @@ It gets its name from Technetium-99m, agent used for [Single Photon Emission Com
 - Icons have been reintroduced, in a smaller menu
 - Compact mode has been re-enabled
 - Close-tab icon is always displayed, regardless of the number of open tabs 
+- Speaker icon always visible on tabs reproducing A/V content
 - I wish to thank the [Lepton](https://github.com/black7375/Firefox-UI-Fix)'s developer, whose work served as a base for my less radical restyling
 
 
