@@ -22,7 +22,7 @@ It gets its name from Technetium-99m, agent used for [Single Photon Emission Com
 
 ![screenshot](https://user-images.githubusercontent.com/16632292/122074400-79444480-cdf9-11eb-8137-21b7991451c6.png)
 
-![screenshot 2](https://user-images.githubusercontent.com/16632292/122074886-e3f58000-cdf9-11eb-8fd8-6c07b23ddac7.png)
+![screenshot-Technetium](https://user-images.githubusercontent.com/16632292/122136471-dca69480-ce42-11eb-8a49-6a13ad77c9aa.png)
 
 
 ### Bugs and Feedback
