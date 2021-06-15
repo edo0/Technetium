@@ -1,5 +1,5 @@
 # What is Technetium?
-An approach to taming the new Firefox 89+'s Photon design - icons included
+An approach to taming the new Firefox 89+'s Proton design, restituting some elements retired alongside the old Photon UI
 
 It gets its name from Technetium-99m, agent used for [Single Photon Emission Computed Tomography](https://en.wikipedia.org/wiki/Single-photon_emission_computed_tomography)
 
