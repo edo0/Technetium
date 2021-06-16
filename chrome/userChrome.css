@@ -10,11 +10,11 @@
   :root {
     /* Tool Bar */
     --toolbarbutton-outer-padding: 2px !important; /* Original: 3px, General is 2px */
-
+  }
   :root [uidensity=normal] .toolbar-items, .tabbrowser-tab {
     max-height: 38px;
   }
-  :root[uidensity=normal] .toolbar-items, .tabbrowser-tab {
+  :root[uidensity=compact] .toolbar-items, .tabbrowser-tab {
     max-height: 36px;
   }
   :root[uidensity=touch] .toolbar-items, .tabbrowser-tab {
@@ -395,6 +395,12 @@
 
   #allTabsMenu-containerTabsView .subviewbutton:last-child {
     list-style-image: url(chrome://global/skin/icons/settings.svg);
+  }
+
+  /** Sound Tab - Show with Favicons */
+  /* Makes the favicons always visible (also on hover) */
+  .tab-icon-image:not([pinned]){
+    opacity: 1 !important
   }
 
   /* Makes the speaker icon to always appear if the tab is playing (not only on hover) */
