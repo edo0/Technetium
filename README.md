@@ -22,6 +22,10 @@ It gets its name from Technetium-99m, agent used for [Single Photon Emission Com
 
 ![screenshot-Technetium](https://user-images.githubusercontent.com/16632292/122136471-dca69480-ce42-11eb-8a49-6a13ad77c9aa.png)
 
+### In the News   
+As featured on OMG!Ubuntu!
+
+https://www.omgubuntu.co.uk/2021/06/dont-like-firefoxs-new-look-try-one-of-these-tweaks
 
 ### Bugs and Feedback
 Please don't hesitate to fill in a bug report if something seems not to be working as expected, or you have any piece of advice
