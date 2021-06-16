@@ -29,11 +29,11 @@ https://www.omgubuntu.co.uk/2021/06/dont-like-firefoxs-new-look-try-one-of-these
 
 ### Donations
 If you like my work, please consider donating to the Free Software Foundation!   
-Free softare is what allows all this to happen, and they have been championing it (GPL license, GNU, GNOME, GIMP...) for 36 years already     
-https://my.fsf.org/donate   
+Free software is what allows all this to happen, and they have been championing it (GPL license, GNU, GNOME, GIMP...) for 36 years already!
+
+https://my.fsf.org/donate  
+
 ![image](https://user-images.githubusercontent.com/16632292/122197289-53ba4800-ce98-11eb-9d8c-f318f587619f.png)
-
-
 
 ### Bugs and Feedback
 Please don't hesitate to fill in a bug report if something seems not to be working as expected, or you have any piece of advice
