@@ -22,6 +22,9 @@ It gets its name from Technetium-99m, agent used for [Single Photon Emission Com
 
 ![screenshot-Technetium](https://user-images.githubusercontent.com/16632292/122136471-dca69480-ce42-11eb-8a49-6a13ad77c9aa.png)
 
+### Really missing tab separators?
+They can sure be restore, by adding [this code](https://pastebin.com/yHggpULx) before the last `}` in `userChrome.css`
+
 ### In the News   
 As featured on OMG!Ubuntu!
 
