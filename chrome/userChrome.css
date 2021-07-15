@@ -164,7 +164,7 @@
     --tab-min-height: 38px !important;
   }
   :root[uidensity=compact] #TabsToolbar {
-    --tab-min-height: 36px !important;
+    --tab-min-height: 29px !important;
   }
 
   /* Scroll Button - Size Fix */
@@ -252,7 +252,7 @@
     }
   }
 
-  /** Poup Panel - Reduce padding**********************************************/
+  /*= Popup Panel - Reduce padding ============================================*/
   #protections-popup-main-header-label {
     height: unset !important; /* Original: 37.6px */
   }
@@ -492,13 +492,6 @@
     opacity: 0.95;
   }
 
-  /* Close Button's position
-  .tabbrowser-tab[pictureinpicture]:not([pinned]) .tab-close-button {
-    margin-left: 7px !important;
-    -moz-box-ordinal-group: 2 !important;
-  }
-  */
-
   .tabbrowser-tab[pictureinpicture]:not([pinned]):hover .tab-close-button {
     margin-left: 0px !important;
   }
@@ -577,6 +570,9 @@
   .subviewbutton > .toolbarbutton-text {
     padding-inline-start: var(--arrowpanel-menuicon-padding) !important;
   }
+  .toolbaritem-combined-buttons > .subviewbutton:not(.subviewbutton-iconic) > .toolbarbutton-text {
+    padding-inline-start: 0 !important;
+  }
   #panelMenu_bookmarksMenu .subviewbutton[disabled=true] .toolbarbutton-text,
   #appMenu_historyMenu     .subviewbutton[disabled=true] .toolbarbutton-text {
     padding-inline-start: var(--arrowpanel-menublank-padding) !important;
@@ -616,6 +612,14 @@
     fill: currentColor !important;
     fill-opacity: var(--toolbarbutton-icon-fill-opacity) !important;
     -moz-context-properties: fill !important;
+  }
+  #appMenu-zoomReduce-button2 > .toolbarbutton-icon,
+  #appMenu-zoomEnlarge-button2 > .toolbarbutton-icon {
+    stroke: var(--zoom-controls-bgcolor, var(--button-bgcolor, ButtonFace)) !important;
+    -moz-context-properties: fill, stroke !important;
+  }
+  #appMenu-zoomReduce-button2:not([disabled], [open], :active):is(:hover) > .toolbarbutton-icon, #appMenu-zoomEnlarge-button2:not([disabled], [open], :active):is(:hover) > .toolbarbutton-icon {
+    stroke: var(--button-hover-bgcolor) !important;
   }
 
   .subviewbutton[disabled=true] > image {
@@ -697,7 +701,7 @@
   }
 
   #appMenu-quit-button2 {
-    list-style-image: url(chrome://browser/skin/quit.svg);
+    list-style-image: url(./icons/quit.svg);
   }
 
   /*= Panel - Account ========================================================*/
@@ -726,14 +730,14 @@
     list-style-image: url(chrome://browser/skin/fxa/add-device.svg);
   }
   #PanelUI-fxa-menu-sendtab-button {
-    list-style-image: url(chrome://browser/skin/send-to-device.svg);
+    list-style-image: url(./icons/send-to-device.svg);
   }
   #PanelUI-fxa-menu-sync-prefs-button,
   #PanelUI-remotetabs-view-managedevices {
     list-style-image: url(chrome://global/skin/icons/settings.svg);
   }
   #PanelUI-fxa-menu-account-signout-button {
-    list-style-image: url(chrome://browser/skin/sign-out.svg);
+    list-style-image: url(./icons/sign-out.svg);
   }
 
   .PanelUI-remotetabs-notabsforclient-label {
@@ -756,7 +760,7 @@
     display: none;
   }
   .pageAction-sendToDevice-device.subviewbutton.sync-menuitem.sendtab-target[clientType=""] {
-    list-style-image: url(chrome://browser/skin/send-to-device.svg);
+    list-style-image: url(./icons/send-to-device.svg);
   }
   .pageAction-sendToDevice-device.subviewbutton.sync-menuitem.sendtab-target:not([clientType]) {
     list-style-image: url(chrome://global/skin/icons/settings.svg);
@@ -789,7 +793,7 @@
     list-style-image: url(chrome://browser/skin/window.svg);
   }
   #appMenuRestoreSession {
-    list-style-image: url(chrome://browser/skin/restore-session.svg);
+    list-style-image: url(./icons/restore-session.svg);
   }
   #appMenuClearRecentHistory {
     list-style-image: url(chrome://browser/skin/forget.svg);
@@ -803,7 +807,7 @@
     list-style-image: url(./icons/movetowindow-16.svg);
   }
   #appMenu-library-recentlyClosedWindows {
-    list-style-image: url(chrome://browser/skin/restore-session.svg);
+    list-style-image: url(./icons/restore-session.svg);
   }
 
   /*= Panel - More tools =====================================================*/
@@ -1115,7 +1119,7 @@
     --menuitem-image: url(./icons/arrow-swap.svg);
   }
   #context_sendTabToDevice {
-    --menuitem-image: url(chrome://browser/skin/send-to-device.svg);
+    --menuitem-image: url(./icons/send-to-device.svg);
   }
   #context_shareTabURL { /* At windows */
     --menuitem-image: url(./icons/share.svg);
@@ -1267,7 +1271,7 @@
     --menuitem-image: url(chrome://browser/skin/link.svg);
   }
   #context-sendlinktodevice {
-    --menuitem-image: url(chrome://browser/skin/send-to-device.svg);
+    --menuitem-image: url(./icons/send-to-device.svg);
   }
 
   #context-media-play {
@@ -1362,7 +1366,7 @@
     --menuitem-image: url(chrome://browser/skin/pocket-outline.svg);
   }
   #context-sendpagetodevice {
-    --menuitem-image: url(chrome://browser/skin/send-to-device.svg);
+    --menuitem-image: url(./icons/send-to-device.svg);
   }
   #fill-login {
     --menuitem-image: url(./icons/password.svg);
@@ -1539,6 +1543,10 @@
   }
   #placesContext_showAllBookmarks {
     --menuitem-image: url(chrome://browser/skin/bookmark-star-on-tray.svg);
+  }
+
+  menupopup[context="placesContext"]  > .openintabs-menuitem {
+    --menuitem-image: url(./icons/movetowindow-16.svg);
   }
 
   /*= pageActionContextMenu ==================================================*/
