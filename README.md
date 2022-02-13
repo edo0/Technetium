@@ -1,4 +1,4 @@
-#Maintainer wanted
+# Maintainer wanted
 Looking for someone willing to take over maintainership of the project.
 
 # What is Technetium?
