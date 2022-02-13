@@ -1,3 +1,6 @@
+#Maintainer wanted
+Looking for someone willing to take over maintainership of the project.
+
 # What is Technetium?
 A focused approach to taming the new Firefox 89+'s Proton design, restituting some elements retired alongside the old Photon UI
 
